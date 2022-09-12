@@ -267,6 +267,9 @@ a {
   .hide-nav {
     display: none !important;
   }
+  .toggle-container {
+    margin-bottom: 3rem;
+  }
 }
 
 .nav-container {
@@ -308,3 +311,8 @@ a {
   margin-bottom: 3rem;
 }
 
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-collapse {
+    flex-basis: 100% !important;
+  }
+}
