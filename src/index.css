@@ -193,6 +193,9 @@ a {
     place-content: center;
     gap: 1rem;
   }
+  .card-helper-3 {
+    margin-right: 0rem;
+  }
 }
 
 @media screen and (max-width: 320px) {

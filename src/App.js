@@ -166,9 +166,6 @@ function App() {
               <CardBody className="card-body-helper-2">
                 {/* <div href="https://waelhamze.netlify.app"> */}
                 <Card
-                  style={{
-                    marginRight: "1rem",
-                  }}
                   className="card-helper-3"
                   onClick={() =>
                     (window.open("https://e-commerce-shoe-store.netlify.app/"))
