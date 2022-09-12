@@ -60,7 +60,7 @@ function App() {
                   <p>
                     Since beginning my journey as a web developer, and I have
                     been fascinated about this particular technology. I have
-                    started early to satisfy my ambitions. . I'm quietly
+                    started early to satisfy my ambitions. I'm quietly
                     confident, naturally curious, and perpetually working on
                     improving myself one day at a time.
                   </p>
