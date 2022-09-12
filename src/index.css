@@ -273,12 +273,6 @@ a {
   padding: 2rem;
 }
 
-@media screen and (max-width: 550px) {
-  .marginTop {
-    margin-top: 2rem !important;
-  }
-}
-
 .block-container {
   padding: 3rem;
   padding-top: 4rem;
@@ -306,3 +300,11 @@ a {
     padding: 0.3rem;
   }
 }
+
+.toggle-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+

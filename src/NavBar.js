@@ -32,8 +32,9 @@ const NavBar = ({ contact, emptyInputs }) => {
         style={contact ? { borderBottom: "1px solid #e5e5e5" } : {}}
         className={contact ? "hide-nav" : ""}
       >
+        <div className="toggle-container">
         {!contact && (
-          <NavbarBrand style={{ marginLeft: "2rem" }} href="/">
+          <NavbarBrand href="/">
             <img
               style={{ width: "6rem" }}
               src={require("./images/t.png")}
@@ -42,6 +43,7 @@ const NavBar = ({ contact, emptyInputs }) => {
           </NavbarBrand>
         )}
         <NavbarToggler onClick={toggle} />
+        </div>
         <Collapse isOpen={isOpen} navbar className="marginTop">
           <Nav
             className={"flexed-left"}
