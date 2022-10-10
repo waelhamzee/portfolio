@@ -164,7 +164,6 @@ function App() {
                 My Projects :
               </CardTitle>
               <CardBody className="card-body-helper-2">
-                {/* <div href="https://waelhamze.netlify.app"> */}
                 <Card
                   className="card-helper-3"
                   onClick={() =>
@@ -177,8 +176,6 @@ function App() {
                     <CardText>A demo e-commerce store.</CardText>
                   </CardBody>
                 </Card>
-                {/* </div> */}
-                {/* <div href="https://react-telegram-clone.netlify.app"> */}
                 <Card
                   className="card-helper-3"
                   onClick={() =>
@@ -191,7 +188,18 @@ function App() {
                     <CardText>A real time chat/video web app.</CardText>
                   </CardBody>
                 </Card>
-                {/* </div> */}
+                <Card
+                  className="card-helper-3"
+                  onClick={() =>
+                    (window.open("https://wordle-is-cloned.netlify.app/"))
+                  }
+                >
+                  <img alt="Sample" src={require("./images/wordle.png")} />
+                  <CardBody>
+                    <CardTitle tag="h5">Word Game.</CardTitle>
+                    <CardText>A wordle clone.</CardText>
+                  </CardBody>
+                </Card>
               </CardBody>
             </Card>
             <Card
