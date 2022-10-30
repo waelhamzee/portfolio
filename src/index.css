@@ -187,7 +187,7 @@ a {
   width: 15rem;
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 800px) {
   .card-body-helper-2 {
     display: grid;
     place-content: center;

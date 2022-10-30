@@ -143,7 +143,7 @@ function App() {
                       <p style={{ color: "#6E07F3", fontWeight: "bold" }}>
                         Languages/Tools I speak:
                       </p>
-                      <p>Node.js, MongodDB, Express.</p>
+                      <p>Node.js, SQL, MongodDB, Express.</p>
                     </div>
                     <div style={{ paddingTop: "2rem", paddingBottom: "1rem" }}>
                       <p>Additions :</p>
@@ -198,6 +198,18 @@ function App() {
                   <CardBody>
                     <CardTitle tag="h5">Word Game.</CardTitle>
                     <CardText>A wordle clone.</CardText>
+                  </CardBody>
+                </Card>
+                <Card
+                  className="card-helper-3"
+                  onClick={() =>
+                    (window.open("https://touch-js.netlify.app/"))
+                  }
+                >
+                  <img src={require("./images/touch.png")} alt="Sample" />
+                  <CardBody>
+                    <CardTitle tag="h5">Touch Game.</CardTitle>
+                    <CardText>Click Click!</CardText>
                   </CardBody>
                 </Card>
               </CardBody>
