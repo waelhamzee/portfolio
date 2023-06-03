@@ -63,9 +63,9 @@ const PROJECTS = [
   {
     id: 5,
     title: "Basic.",
-    description: "Built with React.js and Node.js and inspired from Telegram.",
-    website_url:
+    description:
       "A quick showcase of Javascript's multi-use features by creating a simple touch game.",
+    website_url: "https://touch-js.netlify.app/",
     github_url: "https://github.com/waelhamzee/touch-game",
     image: touch,
     height: 200,
